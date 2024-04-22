@@ -30,7 +30,6 @@ public class MainActivity extends BaseActivity implements CallInterface {
         txtView = findViewById(R.id.txtView);
         textViewDay = findViewById(R.id.textViewDay);
         textViewDayOfWeek = findViewById(R.id.textViewDayOfWeek);
-        txtView = findViewById(R.id.txtView);
         imageView = findViewById(R.id.imageView);
 
         // Mostramos la barra de progreso y ejecutamos la llamada a la API
