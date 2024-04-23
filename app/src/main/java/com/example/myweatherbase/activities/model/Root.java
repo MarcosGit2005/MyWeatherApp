@@ -10,10 +10,10 @@ public class Root implements Serializable {
     public String cod;
     public int message;
     public int cnt;
-    public ArrayList<List> list;
+    public static ArrayList<List> lists;
     public City city;
-    public String getCity(){
-        return city.name;
+    public City getCity(){
+        return city;
     }
 }
 

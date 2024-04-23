@@ -3,47 +3,36 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".activities.MainActivity">
+    android:layout_height="match_parent">
 
-    <TextView
-        android:id="@+id/txtView"
+    <Button
+        android:id="@+id/buttonPrevision"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="PREVISION"
+        android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toEndOf="@+id/txtView"
-        app:layout_constraintStart_toStartOf="@+id/txtView"
-        app:layout_constraintTop_toBottomOf="@+id/txtView"
-        app:srcCompat="@drawable/ic_launcher_background" />
-
-    <TextView
-        android:id="@+id/textViewDay"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="@+id/imageView"
-        app:layout_constraintStart_toStartOf="@+id/imageView"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+    <Spinner
+        android:id="@+id/spinnerCities"
+        android:layout_width="280dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonPrevision"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
-        android:id="@+id/textViewDayOfWeek"
+        android:id="@+id/textViewHint"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="@+id/textViewDay"
-        app:layout_constraintStart_toStartOf="@+id/textViewDay"
-        app:layout_constraintTop_toBottomOf="@+id/textViewDay" />
-
+        android:layout_marginBottom="16dp"
+        android:hint="Elige una "
+        app:layout_constraintBottom_toTopOf="@+id/spinnerCities"
+        app:layout_constraintEnd_toEndOf="@+id/spinnerCities"
+        app:layout_constraintStart_toStartOf="@+id/spinnerCities" />
 </androidx.constraintlayout.widget.ConstraintLayout>
