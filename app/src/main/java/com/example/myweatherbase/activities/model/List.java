@@ -1,11 +1,11 @@
 package com.example.myweatherbase.activities.model;
 
-import com.example.myweatherbase.activities.model.prevision.Clouds;
-import com.example.myweatherbase.activities.model.prevision.Main;
-import com.example.myweatherbase.activities.model.prevision.Rain;
-import com.example.myweatherbase.activities.model.prevision.Sys;
-import com.example.myweatherbase.activities.model.prevision.Weather;
-import com.example.myweatherbase.activities.model.prevision.Wind;
+import com.example.myweatherbase.activities.model.list.Clouds;
+import com.example.myweatherbase.activities.model.list.Main;
+import com.example.myweatherbase.activities.model.list.Rain;
+import com.example.myweatherbase.activities.model.list.Sys;
+import com.example.myweatherbase.activities.model.list.Weather;
+import com.example.myweatherbase.activities.model.list.Wind;
 
 import java.io.Serializable;
 import java.util.ArrayList;

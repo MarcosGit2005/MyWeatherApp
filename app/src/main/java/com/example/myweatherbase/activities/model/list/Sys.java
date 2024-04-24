@@ -1,4 +1,4 @@
-package com.example.myweatherbase.activities.model.prevision;
+package com.example.myweatherbase.activities.model.list;
 
 import java.io.Serializable;
 
