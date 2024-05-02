@@ -25,6 +25,7 @@
         </activity>
         <activity android:name=".activities.CityActivity"></activity>
         <activity android:name=".activities.ListActivity"></activity>
+        <activity android:name=".activities.PreferenciasActivity" />
     </application>
 
 </manifest>
